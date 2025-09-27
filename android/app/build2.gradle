@@ -1,0 +1,17 @@
+android {
+    ...
+    signingConfigs {
+        release {
+            storeFile file("YOUR_KEYSTORE_FILE.jks") // <-- UPDATE THIS PATH
+            storePassword "YOUR_KEYSTORE_PASSWORD"
+            keyAlias "Mani" // This seems to be your alias
+            keyPassword "YOUR_KEY_PASSWORD"
+        }
+    }
+    buildTypes {
+        release {
+            signingConfig signingConfigs.release
+            ...
+        }
+    }
+}

@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Ai Jobsearch</string>
+    <string name="title_activity_main">Ai Jobsearch</string>
+    <string name="package_name">com.Manikanta.jobsearcher</string>
+    <string name="custom_url_scheme">com.Manikanta.jobsearcher</string>
+</resources>

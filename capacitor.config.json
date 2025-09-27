@@ -1,0 +1,6 @@
+{
+  "appId": "com.Manikanta.jobsearcher",
+  "appName": "Ai Jobsearch",
+  "webDir": "dist",
+  "bundledWebRuntime": false
+}
